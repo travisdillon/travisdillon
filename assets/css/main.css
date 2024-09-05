@@ -2854,7 +2854,7 @@ input, select, textarea {
 
 	ol {
 		list-style: decimal;
-		margin: 0 0 2rem 0;
+		margin: 0 0 1.5rem 0;
 		padding-left: 1.25rem;
 	}
 
@@ -2864,7 +2864,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2rem 0;
+		margin: 0 0 1.5rem 0;
 		padding-left: 1rem;
 	}
 
@@ -4113,10 +4113,12 @@ input, select, textarea {
 /*			line-height: 4rem;*/
 /*			margin: 0 auto 0 auto;*/
 			overflow: visible;
-			padding: 0 2rem 0 0;
+			padding: 0 0 0 0;
+			margin: 0 0 0 0;
 			position: relative;
 /*			width: calc(100% - 4rem);*/
 /*			max-width: 72rem;*/
+			flex-wrap: wrap;
 		}
 
 			ul.button-dropdown-list .button {
@@ -4126,8 +4128,9 @@ input, select, textarea {
 				-webkit-user-select: none;
 			}
 
-			ul.button-dropdown-list li + li {
-				padding-left: 1.5rem;
+			ul.button-dropdown-list li{
+				padding-right: 1.5rem;
+				padding-bottom:1.5rem;
 			}
 
 
