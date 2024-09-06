@@ -2168,6 +2168,19 @@ input, select, textarea {
 			line-height: 2.5rem;
 			padding: 0 1.5rem;
 		}
+		input[type="submit"].smaller,
+		input[type="reset"].smaller,
+		input[type="button"].smaller,
+		button.smaller,
+		.button.smaller {
+			font-size: 0.8rem;
+			height: 1.75rem;
+			line-height: 1.75rem;
+			padding: 0 0.6rem;
+			border-radius: 10px;
+			letter-spacing: 0.02em;
+			margin-left: 0.3rem;
+		}
 
 		input[type="submit"].large,
 		input[type="reset"].large,
