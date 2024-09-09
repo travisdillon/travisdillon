@@ -4118,6 +4118,10 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
+		.small-bottom-margin {
+			margin-bottom: 0.5rem;
+		}
+
 		ul.button-dropdown-list {
 			list-style: none;
 			display: -moz-flex;
