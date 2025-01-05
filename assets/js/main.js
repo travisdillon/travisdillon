@@ -317,5 +317,72 @@
 				contentBox.css('max-height',content.prop('scrollHeight'));
 			}
 		})
+
+	
+	// groovy page button + counter
+		$(document).ready(function () {
+		  const apiUrl = 'https://api.jsonbin.io/v3/b/677ab0a9e41b4d34e4704f97';
+		  const apiKey = '$2a$10$ih32TwOnyTU/KrDY4Rn7x..MrUWVBt1hybfhXkzLib5f/iX5xeDxa';
+		  var localCounterValue = 0;
+
+		  // Fetch the current counter value
+		  function getCounter() {
+		    $.ajax({
+		      url: apiUrl,
+		      headers: { 'X-Access-Key': apiKey },
+		      method: 'GET',
+		      success: function (data) {
+		      	localCounterValue = data.record.grooveCounter;
+		        $('#counter').text(localCounterValue);
+		      },
+		      error: function () {
+		        $('#counter').text('Error');
+		      },
+		    });
+		  }
+
+		  // Increment the counter value
+		  function incrementCounter() {
+			$('#counter').text(localCounterValue + 1) // immediately increases by 1
+			//then checks the actual counter value & updates
+		    $.ajax({
+		      url: apiUrl,
+		      headers: { 'X-Access-Key': apiKey },
+		      method: 'GET',
+		      success: function (data) {
+			localCounterValue = data.record.grooveCounter + 1;
+			$.ajax({
+			  url: apiUrl,
+			  headers: {
+			    'Content-Type': 'application/json',
+			    'X-Access-Key': apiKey,
+			  },
+			  method: 'PUT',
+			  data: JSON.stringify({ grooveCounter: localCounterValue }),
+			  success: function () {
+			    $('#counter').text(localCounterValue);
+			  },
+			});
+		      },
+		    });
+		  }
+
+		  $('#groove-report').on('click', function() {
+			$('dialog')[0].showModal();
+		  });
+
+		  $("#cancel").on('click', function() {
+			$('dialog')[0].close();
+		  });
+
+		  $("#grooveButton").on('click', function() {
+			$('dialog')[0].close();
+		  });
+
+		  // Initialize
+		  getCounter();
+		  $('#grooveButton').on('click', incrementCounter);
+		});
+
 })(jQuery);
 
