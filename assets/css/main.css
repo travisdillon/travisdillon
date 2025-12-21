@@ -2676,6 +2676,26 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image .two-images {
+			display: block;
+			margin-bottom: 3rem;
+			margin-left: auto;
+			margin-right: auto;
+			width: 90%;
+		}
+
+			.image .two-images img {
+				display:inline-block;
+				width: 46%;
+			}
+
+			.image .two-images img:first-child {
+				margin-right: 3.5%;
+			}
+			.image .two-images img:last-child {
+				margin-left: 3.5%;
+			}
+
 		@media screen and (max-width: 736px) {
 
 			.image.fit {
@@ -4213,6 +4233,11 @@ input, select, textarea {
 		#groove-report + p {
 			margin-top: 2em;
 		}
+
+	p.centered {
+		margin: 0 auto 0 auto;
+		text-align: center;
+	}
 
 
 
