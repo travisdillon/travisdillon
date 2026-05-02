@@ -4247,7 +4247,8 @@ img.glassblow-featured {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 500px;
+	max-height: 500px;
+	max-width: 90%;
 	margin-bottom: 3rem;
 }
 
