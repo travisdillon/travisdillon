@@ -167,6 +167,10 @@ input, select, textarea {
 			border-bottom-color: transparent;
 		}
 
+	a.no-bottom-border {
+		border-bottom: dotted 0px;
+	}
+
 	strong, b {
 		font-weight: 600;
 	}
@@ -185,7 +189,7 @@ input, select, textarea {
 		}
 
 		p.no-bottom-margin {
-			margin: 0 0 0 0;
+			margin-bottom: 0;
 		}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -4218,6 +4222,10 @@ input, select, textarea {
 		p:has(+#groove-o-meter) {
 			margin-bottom: 0pt;
 		}
+
+	div.bottom-spacer {
+		margin-bottom: 2rem;
+	}
 
 	div.centered {
 		text-align: center;

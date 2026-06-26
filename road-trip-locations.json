@@ -1,20 +1,9 @@
 [
   {
-    "date": "1 July",
-    "name": "Boston, MA",
-    "lat": 42.3601,
-    "lng": -71.0589
-  },
-  {
-    "date": "2 July",
-    "name": "Albany, NY",
-    "lat": 42.6526,
-    "lng": -73.7562
-  },
-  {
-    "date": "3 July",
-    "name": "Buffalo, NY",
-    "lat": 42.8864,
-    "lng": -78.8784
+    "date": "August 1",
+    "name": "Spokane, WA",
+    "lat": 48.1783,
+    "lng": -117.05472,
+    "note": "My sister's birthday, and the birth of this road trip."
   }
 ]

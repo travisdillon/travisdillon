@@ -417,7 +417,7 @@
 	                .addTo(map)
 	                .bindPopup(
 	                    "<strong>" + loc.name + "</strong><br>" +
-	                    loc.date
+	                    loc.date + "<br>" + loc.note
 	                );
 
 	        });
@@ -430,8 +430,6 @@
 	            .bindPopup("<strong>Current Stop</strong><br>" + latest.name);
 
 	        $("#current-stop").text(latest.name);
-	        $("#days").text(locations.length);
-	        $("#miles").text(Math.round(totalMiles(locations)));
 
 	    });
 
