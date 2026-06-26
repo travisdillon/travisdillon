@@ -384,5 +384,58 @@
 		  $('#grooveButton').on('click', incrementCounter);
 		});
 
+
+
+		// Road trip code
+		$(function () {
+
+	    var map = L.map("map").setView([39, -98], 4);
+
+	    L.tileLayer(
+	        "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+	        {
+	            attribution: "&copy; OpenStreetMap contributors"
+	        }
+	    ).addTo(map);
+
+	    $.getJSON("road-trip-locations.json", function (locations) {
+
+	        var points = $.map(locations, function (loc) {
+	            return [[loc.lat, loc.lng]];
+	        });
+
+	        // Draw route
+	        L.polyline(points).addTo(map);
+
+	        // Zoom to route
+	        map.fitBounds(points);
+
+	        // Add a marker for every stop
+	        $.each(locations, function (_, loc) {
+
+	            L.circleMarker([loc.lat, loc.lng])
+	                .addTo(map)
+	                .bindPopup(
+	                    "<strong>" + loc.name + "</strong><br>" +
+	                    loc.date
+	                );
+
+	        });
+
+	        // Highlight latest stop
+	        var latest = locations[locations.length - 1];
+
+	        L.marker([latest.lat, latest.lng])
+	            .addTo(map)
+	            .bindPopup("<strong>Current Stop</strong><br>" + latest.name);
+
+	        $("#current-stop").text(latest.name);
+	        $("#days").text(locations.length);
+	        $("#miles").text(Math.round(totalMiles(locations)));
+
+	    });
+
+});
+
 })(jQuery);
 
