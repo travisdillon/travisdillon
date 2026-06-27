@@ -6,4 +6,18 @@
     "lng": -117.0437038,
     "note": "My sister's birthday, and the birth of this road trip."
   }
+  {
+    "date": "August 1-3",
+    "name": "Seattle, WA",
+    "lat": 47.670916,
+    "lng": -122.302830,
+    "note": "Visiting my friend Eric and some glassblowing shops."
+  }
+  {
+    "date": "August 4-6",
+    "name": "Ashland, OR",
+    "lat": 42.196320,
+    "lng": -122.714528,
+    "note": "Oregon Shakespeare Festival with Kartik and Yael."
+  }
 ]
