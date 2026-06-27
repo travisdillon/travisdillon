@@ -423,13 +423,13 @@
 	        });
 
 	        // Highlight latest stop
-	        var latest = locations[locations.length - 1];
+	        // var latest = locations[locations.length - 1];
 
-	        L.marker([latest.lat, latest.lng])
-	            .addTo(map)
-	            .bindPopup("<strong>Current Stop</strong><br>" + latest.name);
+	        // L.marker([latest.lat, latest.lng])
+	        //     .addTo(map)
+	        //     .bindPopup("<strong>Current Stop</strong><br>" + latest.name);
 
-	        $("#current-stop").text(latest.name);
+	        // $("#current-stop").text(latest.name);
 
 	    });
 
