@@ -407,8 +407,13 @@
 	        // Draw route
 	        L.polyline(points).addTo(map);
 
-	        // Zoom to route
-	        map.fitBounds(points);
+	        // Zoom to fit lower US map
+			var usBounds = [
+			    [24.5, -125],
+			    [49.5, -66]
+			];
+
+			map.fitBounds(usBounds);
 
 	        // Add a marker for every stop
 	        $.each(locations, function (_, loc) {
