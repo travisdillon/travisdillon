@@ -401,8 +401,8 @@
 
 		    // Zoom to fit lower US map
 			var usBounds = [
-			    [24.5, -125],
-			    [49.5, -66]
+			    [25, -120],
+			    [48.5, -67]
 			];
 
 			map.fitBounds(usBounds);
