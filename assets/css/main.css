@@ -5074,3 +5074,8 @@ img.glassblow-featured {
 /*		margin-bottom: -2rem;*/
 		max-height: 13rem;
 	}
+
+	/* road trip code */
+	#map {
+	    aspect-ratio: 2 / 1;
+	}

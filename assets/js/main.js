@@ -387,27 +387,19 @@
 
 
 		// Road trip code
-		$(function () {
+		$(window).on("load", function () {
 
-	    var map = L.map("map").setView([39, -98], 4);
+			var map = L.map("map");
+		    // var map = L.map("map").setView([39, -98], 4);
 
-	    L.tileLayer(
-	        "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-	        {
-	            attribution: "&copy; OpenStreetMap contributors"
-	        }
-	    ).addTo(map);
+		    L.tileLayer(
+		        "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+		        {
+		            attribution: "&copy; OpenStreetMap contributors"
+		        }
+		    ).addTo(map);
 
-	    $.getJSON("road-trip-locations.json", function (locations) {
-
-	        var points = $.map(locations, function (loc) {
-	            return [[loc.lat, loc.lng]];
-	        });
-
-	        // Draw route
-	        L.polyline(points).addTo(map);
-
-	        // Zoom to fit lower US map
+		    // Zoom to fit lower US map
 			var usBounds = [
 			    [24.5, -125],
 			    [49.5, -66]
@@ -415,30 +407,39 @@
 
 			map.fitBounds(usBounds);
 
-	        // Add a marker for every stop
-	        $.each(locations, function (_, loc) {
+		    $.getJSON("road-trip-locations.json", function (locations) {
 
-	            L.circleMarker([loc.lat, loc.lng])
-	                .addTo(map)
-	                .bindPopup(
-	                    "<strong>" + loc.name + "</strong><br>" +
-	                    loc.date + "<br>" + loc.note
-	                );
+		        var points = $.map(locations, function (loc) {
+		            return [[loc.lat, loc.lng]];
+		        });
 
-	        });
+		        // Draw route
+		        L.polyline(points).addTo(map);
 
-	        // Highlight latest stop
-	        // var latest = locations[locations.length - 1];
+		        // Add a marker for every stop
+		        $.each(locations, function (_, loc) {
 
-	        // L.marker([latest.lat, latest.lng])
-	        //     .addTo(map)
-	        //     .bindPopup("<strong>Current Stop</strong><br>" + latest.name);
+		            L.circleMarker([loc.lat, loc.lng])
+		                .addTo(map)
+		                .bindPopup(
+		                    "<strong>" + loc.name + "</strong><br>" +
+		                    loc.date + "<br>" + loc.note
+		                );
 
-	        // $("#current-stop").text(latest.name);
+		        });
 
-	    });
+		        // Highlight latest stop
+		        // var latest = locations[locations.length - 1];
 
-});
+		        // L.marker([latest.lat, latest.lng])
+		        //     .addTo(map)
+		        //     .bindPopup("<strong>Current Stop</strong><br>" + latest.name);
+
+		        // $("#current-stop").text(latest.name);
+
+		    });
+
+		});
 
 })(jQuery);
 
