@@ -1,23 +1,30 @@
-[
-  {
-    "date": "August 1",
-    "name": "Newport, WA",
-    "lat": 48.1806418,
-    "lng": -117.0437038,
-    "note": "My sister's birthday, and the birth of this road trip."
-  },
+]\[
+  // {
+  //   "date": "August 1",
+  //   "name": "Newport, WA",
+  //   "lat": 48.1806418,
+  //   "lng": -117.0437038,
+  //   "note": "My sister's birthday, and the birth of this road trip."
+  // },
   {
     "date": "August 1-3",
     "name": "Seattle, WA",
     "lat": 47.670916,
     "lng": -122.302830,
-    "note": "Visiting my friend Eric and some glassblowing shops."
+    "note": "Beginning of the trip! Visiting Eric and seeing some glassblowing."
   },
   {
-    "date": "August 4-6",
+    "date": "August 3-5",
     "name": "Ashland, OR",
     "lat": 42.196320,
     "lng": -122.714528,
-    "note": "Oregon Shakespeare Festival with Kartik and Yael."
+    "note": "Oregon Shakespeare Festival with Kartik. Handoff of the Kartikmobile."
+  }
+  {
+    "date": "August 5-12(?)",
+    "name": "SF Bay area",
+    "lat": 37.759412,
+    "lng": -122.457161,
+    "note": "Visiting SF friends & provisioning for the long drive."
   }
 ]
