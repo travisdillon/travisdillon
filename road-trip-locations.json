@@ -4,7 +4,7 @@
     "name": "Seattle, WA",
     "lat": 47.670916,
     "lng": -122.302830,
-    "note": "Beginning of the trip! Visiting Eric and seeing some glassblowing.",
+    "note": "Beginning of the trip! Visiting Eric, picking blackberries, and glassblowing excursions.",
     "photo": "images/roadtrip/Travis_and_Eric_Seattle.jpeg"
   },
   {
@@ -28,6 +28,7 @@
     "name": "Redwoods stopover",
     "lat": 41.4120,
     "lng": -124.0289,
+    "note": "It's true: they're big.",
     "photo": "images/roadtrip/redwoods.jpeg"
   },
   {
