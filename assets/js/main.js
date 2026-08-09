@@ -416,15 +416,21 @@
 		        // Draw route
 		        L.polyline(points).addTo(map);
 
-		        // Add a marker for every stop
+		        // Add a marker for every stop with popup info
 		        $.each(locations, function (_, loc) {
+
+		        	var popup = "<strong>" + loc.name + "</strong><br>" + loc.date +
+		        		"<br>" + loc.note
+
+		        	if (loc.photo) {
+		        		popup = "<strong>" + loc.name + "</strong><br>" + loc.date +
+		                    "<br>" + loc.note +
+		                    "<br>" + "<img src='" + loc.photo + "' class='road-trip-popup-photo'/>"
+		        	}
 
 		            L.circleMarker([loc.lat, loc.lng])
 		                .addTo(map)
-		                .bindPopup(
-		                    "<strong>" + loc.name + "</strong><br>" +
-		                    loc.date + "<br>" + loc.note
-		                );
+		                .bindPopup(popup);
 
 		        });
 

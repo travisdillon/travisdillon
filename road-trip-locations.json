@@ -1,9 +1,40 @@
 [
   {
-    "date": "July 31 - August 5",
+    "date": "July 31 - August 4",
     "name": "Seattle, WA",
     "lat": 47.670916,
     "lng": -122.302830,
-    "note": "Beginning of the trip! Visiting Eric and seeing some glassblowing."
+    "note": "Beginning of the trip! Visiting Eric and seeing some glassblowing.",
+    "photo": "images/roadtrip/Travis_and_Eric_Seattle.jpeg"
+  },
+  {
+    "date":"August 5",
+    "name": "Point Ellice, WA",
+    "lat": 46.2418,
+    "lng": -123.8732,
+    "note": "First overnight, just across the Columbia River from Oregon.",
+    "photo": "images/roadtrip/August_5_WA.jpeg"
+  },
+  {
+    "date": "August 6",
+    "name": "Humbug Mountain, OR",
+    "lat": 42.6919,
+    "lng": -124.4500,
+    "note": "The Oregon Coast is gorgeous, every single mile." ,
+    "photo": "images/roadtrip/August_6_OR.jpeg"
+  },
+  {
+    "date": "August 6",
+    "name": "Redwoods stopover",
+    "lat": 41.4120,
+    "lng": -124.0289,
+    "photo": "images/roadtrip/redwoods.jpeg"
+  },
+  {
+    "date": "August 7 - 16?",
+    "name": "Berkeley, CA",
+    "lat": 37.8787,
+    "lng": -122.3036,
+    "note": "Staying with and seeing many friends; helping some pack and assuming possession of their car."
   }
 ]
