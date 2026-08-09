@@ -4,7 +4,7 @@
     "name": "Seattle, WA",
     "lat": 47.670916,
     "lng": -122.302830,
-    "note": "Beginning of the trip! Visiting Eric, picking blackberries, and glassblowing excursions.",
+    "note": "Beginning of the trip! Visiting Eric, blackberry picking, glassblowing excursions.",
     "photo": "images/roadtrip/Travis_and_Eric_Seattle.jpeg"
   },
   {
@@ -25,7 +25,7 @@
   },
   {
     "date": "August 6",
-    "name": "Redwoods stopover",
+    "name": "Redwoods",
     "lat": 41.4120,
     "lng": -124.0289,
     "note": "It's true: they're big.",
@@ -36,6 +36,6 @@
     "name": "Berkeley, CA",
     "lat": 37.8787,
     "lng": -122.3036,
-    "note": "Staying with and seeing many friends; helping some pack and assuming possession of their car."
+    "note": "Staying with and seeing many friends. I'm helping some pack and, when that's done, assuming possession of their car."
   }
 ]

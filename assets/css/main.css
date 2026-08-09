@@ -5079,3 +5079,12 @@ img.glassblow-featured {
 	#map {
 	    aspect-ratio: 2 / 1;
 	}
+
+	.road-trip-popup-photo {
+		max-width: 200px;
+	    max-height: 220px;
+	}
+
+	.leaflet-popup-content {
+	    width: 200px !important;
+	}
