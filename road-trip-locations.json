@@ -32,10 +32,49 @@
     "photo": "images/roadtrip/redwoods.jpeg"
   },
   {
-    "date": "August 7 - 16?",
+    "date": "August 7 - 17",
     "name": "Berkeley, CA",
     "lat": 37.8787,
     "lng": -122.3036,
     "note": "Staying with and seeing many friends. I'm helping some pack and, when that's done, assuming possession of their car."
+  },
+  {
+    "date": "August 18",
+    "name": "San Francisco, CA",
+    "lat": 37.78,
+    "lng": -122.42,
+    "note": "Visiting David!",
+    "photo": "images/roadtrip/Aug_19_David_cafe_SF.jpeg"
+  },
+  {
+    "date": "August 19",
+    "name": "Paso Robles, CA",
+    "lat": 37.6514,
+    "lng": -120.693,
+    "note": "Stopover on my way to LA.",
+    "photo": "images/roadtrip/Aug_19_ocean.jpeg"
+  },
+  {
+    "date": "August 20",
+    "name": "Los Angeles, CA",
+    "lat": 34.062,
+    "lng": -118.422,
+    "note": "Visiting Kevin.",
+    "photo": "images/roadtrip/Aug_20_lemons.jpeg"
+  },
+  {
+    "date": "August 21",
+    "name": "Bakersfield, CA",
+    "lat": 35.354,
+    "lng": -118.913,
+    "note": "Dawdled at the beach, so I couldn't reach Sequoia in one day.",
+    "photo": "images/roadtrip/Aug_21_Malibu_beach.jpeg"
+  },
+  {
+    "date": "August 22-24",
+    "name": "Sequoia National Park",
+    "lat": 36.801,
+    "lng": -118.748,
+    "note": "Big trees, big canyon."
   }
 ]
