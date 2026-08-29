@@ -76,6 +76,78 @@
     "name": "Sequoia National Park",
     "lat": 36.801,
     "lng": -118.748,
-    "note": "Big trees, big canyon."
-  }
+    "note": "Big trees, big canyon.",
+    "photo": "images/roadtrip/Aug_22_Sequoia.jpeg"
+  },
+  {
+    "date": "August 24-25",
+    "name": "Fresno, CA",
+    "lat": 36.8080,
+    "lng": -119.7806,
+    "note": "New wheels.",
+    "photo": "images/roadtrip/Aug_24_new_wheels.jpeg"
+  },
+  {
+    "date": "August 25-26",
+    "name": "Yosemite National Park",
+    "lat": 37.8386,
+    "lng": -119.5928,
+    "note": "There is everything here, all at once.",
+    "photo": "images/roadtrip/Aug_26_Yosemite_rocks.jpeg"
+  },
+  {
+    "date": "August 26",
+    "name": "Inyo National Forest",
+    "lat": 37.9328,
+    "lng": -119.2495,
+    "note": "Sunshowers.",
+    "photo": "images/roadtrip/Aug_26_Inyo.jpeg"
+  },
+  {
+    "date": "August 27",
+    "name": "Westgard Pass",
+    "lat": 37.3612,
+    "lng": -118.0108,
+    "note": "A desert's silence.",
+    "photo": "images/roadtrip/Aug_27_Westgard_Pass.jpeg"
+  },
+  {
+    "date": "August 27",
+    "name": "Las Vegas, NV",
+    "lat": 36.1674,
+    "lng": -115.1484,
+    "note": "It's true, what they say. All of it.",
+    "photo": "images/roadtrip/Aug_27_Las_Vegas.jpeg"
+  },
+  {
+    "date": "August 27",
+    "name": "Valley of Fire State Park",
+    "lat": 36.4990,
+    "lng": -114.5094,
+    "note": "Sleeping giants and slumbering dragons.",
+    "photo": "images/roadtrip/Aug_27_Valley_of_Fire.jpeg"
+  },
+  {
+    "date": "August 27",
+    "name": "Fairview Avenue, AZ",
+    "lat": 36.8275,
+    "lng": -113.9958,
+    "note": "Desert camp; flaking dirt.",
+    "photo": "images/roadtrip/Aug_27_camp.jpeg"
+  },
+  {
+    "date": "August 28",
+    "name": "Zion National Park",
+    "lat": 37.2853,
+    "lng": -112.9475,
+    "note": "The Narrows of the canyon.",
+    "photo": "images/roadtrip/Aug_28_Narrows.jpeg"
+  },
+  {
+    "date": "August 29-30",
+    "name": "Fredonia, AZ",
+    "lat": 36.9459,
+    "lng": -112.5261,
+    "note": "A break in travel. Journalling, laundry, and cleaning the car."
+  },
 ]
