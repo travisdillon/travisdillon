@@ -154,48 +154,40 @@
   {
     "date": "August 30",
     "name": "Grand Canyon: North Rim",
-    "lat": 36.9459,
-    "lng": -112.5261,
+    "lat": 36.1204,
+    "lng": -111.9485,
     "note": "Mesas, plateaus, walls, and cliffs as far as I can see",
     "photo": "images/roadtrip/Aug_30_Grand_Canyon_North_Rim.jpeg"
   },
   {
     "date": "August 30",
-    "name": "Navajo Bridge",
-    "lat": 36.9459,
-    "lng": -112.5261,
-    "note": "Across the canyon",
-    "photo": "images/roadtrip/Aug_30_Navajo_Bridge.jpeg"
-  },
-  {
-    "date": "August 30",
     "name": "Cliff Dwellers, AZ",
-    "lat": 36.9459,
-    "lng": -112.5261,
+    "lat": 36.7467,
+    "lng": -111.751,
     "note": "Rock spotting, with sandstone instead of clouds.",
     "photo": "images/roadtrip/Aug_30_Cliff_Dwellers.jpeg"
   },
   {
     "date": "August 31",
     "name": "Grand Canyon: Horshoe Bend",
-    "lat": 36.9459,
-    "lng": -112.5261,
+    "lat": 36.8809,
+    "lng": -111.5109,
     "note": "Kayakers the size of fleas.",
     "photo": "images/roadtrip/Aug_31_Horshoe_Bend.jpeg"
   },
   {
     "date": "August 31",
     "name": "Hopi Cultural Center",
-    "lat": 36.9459,
-    "lng": -112.5261,
+    "lat": 35.8441,
+    "lng": -110.5289,
     "note": "Frybead and hospitality.",
     "photo": "images/roadtrip/Aug_31_frybread.jpeg"
   },
   {
     "date": "September 1",
     "name": "Navajo Museum",
-    "lat": 36.9459,
-    "lng": -112.5261,
+    "lat": 35.6642,
+    "lng": -109.0512,
     "note": "<a href='https://en.wikipedia.org/wiki/Long_Walk_of_the_Navajo' target='_blank'>The Long Walk</a>.",
     "photo": "images/roadtrip/Sept_1_Navajo_Museum.jpeg"
   }
