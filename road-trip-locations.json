@@ -50,7 +50,7 @@
   {
     "date": "August 19",
     "name": "Paso Robles, CA",
-    "lat": 37.6514,
+    "lat": 35.6514,
     "lng": -120.693,
     "note": "Stopover on my way to LA.",
     "photo": "images/roadtrip/Aug_19_ocean.jpeg"
@@ -190,5 +190,36 @@
     "lng": -109.0512,
     "note": "<a href='https://en.wikipedia.org/wiki/Long_Walk_of_the_Navajo' target='_blank'>The Long Walk</a>.",
     "photo": "images/roadtrip/Sept_1_Navajo_Museum.jpeg"
+  },
+  {
+    "date": "September 2",
+    "name": "Route 491",
+    "lat": 36.4824,
+    "lng": -108.7252,
+    "note": "Rain more powerful than the wipers.",
+    "photo": "images/roadtrip/Sept_2_rain.jpeg"
+  },
+  {
+    "date": "September 2-3",
+    "name": "Mesa Verda National Park",
+    "lat": 37.3018,
+    "lng": -108.4194,
+    "note": "Homes in the cliffs, 800 years ago.",
+    "photo": "images/roadtrip/Sept_3_Balcony_house.jpeg"
+  },
+  {
+    "date": "September 3-4",
+    "name": "Black Canyon of the Gunnison National Park",
+    "lat": 38.5423,
+    "lng": -107.6902,
+    "note": "Cliffs painted like petroglyphs. A holy place.",
+    "photo": "images/roadtrip/Sept_4_Black_Canyon.jpeg"
+  },
+  {
+    "date": "September 5-7",
+    "name": "Fort Collins",
+    "lat": 40.4691,
+    "lng": -105.0930,
+    "note": "Visiting Phoebe and Eviatar."
   }
 ]
