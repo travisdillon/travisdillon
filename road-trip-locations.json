@@ -220,6 +220,38 @@
     "name": "Fort Collins",
     "lat": 40.4691,
     "lng": -105.0930,
-    "note": "Visiting Phoebe and Eviatar."
+    "note": "Visiting Phoebe and Eviatar.",
+    "photo": "images/roadtrip/Aug_6_Travis-weather-station.jpeg"
+  },
+  {
+    "date": "September 7-8",
+    "name": "Great Sand Dunes National Park",
+    "lat": 37.733,
+    "lng": -105.5124,
+    "note": "Silence atop 600-foot-tall dunes.",
+    "photo": "images/roadtrip/Sep_8_Sand_Dunes.jpeg"
+  },
+  {
+    "date": "September 9",
+    "name": "Amarillo, TX",
+    "lat": 35.1872,
+    "lng": -101.9871,
+    "note": "Cadillac Ranch.",
+    "photo": "images/roadtrip/Sep_10_Amarillo_TX.jpeg"
+  },
+  {
+    "date": "September 10",
+    "name": "Canton, TX",
+    "lat": 32.5805,
+    "lng": -95.8574,
+    "note": "A long drive's stopover.",
+    "photo": "images/roadtrip/Sep_10_Canton_TX.jpeg"
+  },
+  {
+    "date": "September 11-14",
+    "name": "Baton Rouge, LA",
+    "lat": 30.4377,
+    "lng": -91.1686,
+    "note": "Visiting Callie & Alex."
   }
 ]
