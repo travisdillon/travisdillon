@@ -248,10 +248,43 @@
     "photo": "images/roadtrip/Sep_10_Canton_TX.jpeg"
   },
   {
-    "date": "September 11-14",
+    "date": "September 11-18",
     "name": "Baton Rouge, LA",
     "lat": 30.4377,
     "lng": -91.1686,
-    "note": "Visiting Callie & Alex."
+    "note": "Visiting Callie & Alex.",
+    "photo": "images/roadtrip/Sept_14_New_Orleans.jpeg"
+  },
+  {
+    "date": "September 19",
+    "name": "Natchez Trace Parkway",
+    "lat": 32.0889,
+    "lng": -90.7988,
+    "note": "Driving's idyllic ideal.",
+    "photo": "images/roadtrip/Sept_19_Natchez_Trace_Parkway.jpeg"
+  },
+  {
+    "date": "September 20",
+    "name": "Chattanooga, TN",
+    "lat": 35.0169,
+    "lng": -85.3814,
+    "note": "The road trip classic.",
+    "photo": "images/roadtrip/Sept_20_Chattanooga.jpeg"
+  },
+  {
+    "date": "September 20",
+    "name": "Fall Creek Falls State Park",
+    "lat": 35.6661,
+    "lng": -85.3557,
+    "note": "Waterfall like a summer rain.",
+    "photo": "images/roadtrip/Sept_20_Fall_Creek_Falls.jpeg"
+  },
+  {
+    "date": "September 21",
+    "name": "Mammoth Caves National Park",
+    "lat": 37.1869,
+    "lng": -86.1013,
+    "note": "In the path of rivers prehistoric.",
+    "photo": "images/roadtrip/Sept_21_Mammoth_Cave.jpeg"
   }
 ]
