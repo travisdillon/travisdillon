@@ -286,5 +286,45 @@
     "lng": -86.1013,
     "note": "In the path of rivers prehistoric.",
     "photo": "images/roadtrip/Sept_21_Mammoth_Cave.jpeg"
-  }
+  },
+  {
+    "date": "September 22",
+    "name": "Aberdeen, OH",
+    "lat": 38.6555,
+    "lng": -83.7596,
+    "note": "Innovative repairs",
+    "photo": "images/roadtrip/Sept_22_Folgers_taillight.jpeg"
+  },
+  {
+    "date": "September 22",
+    "name": "Lewisburg, PA",
+    "lat": 40.9645,
+    "lng": -76.8836,
+    "note": "Visiting Sam.",
+    "photo": "images/roadtrip/Sept_23_Mean_Girls.jpeg"
+  },
+  {
+    "date": "September 23",
+    "name": "Jersey City, NJ",
+    "lat": 40.7131,
+    "lng": -74.0366,
+    "note": "End of the road; a car returned.",
+    "photo": "images/roadtrip/Sept_23_PATH.jpeg"
+  },
+  {
+    "date": "September 24",
+    "name": "Brooklyn, NY",
+    "lat": 40.6680,
+    "lng": -73.9625,
+    "note": "Visiting Yiran and Augstin. Sunset in the Botanic Garden",
+    "photo": "images/roadtrip/Sept_24_Botanic_Garden.jpeg"
+  },
+  {
+    "date": "September 25",
+    "name": "Boston, MA",
+    "lat": 42.3503,
+    "lng": -71.0556,
+    "note": "Home.",
+    "photo": "images/roadtrip/Sept_25_Amtrak.jpeg"
+  },
 ]
