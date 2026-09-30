@@ -169,7 +169,7 @@
   },
   {
     "date": "August 31",
-    "name": "Grand Canyon: Horshoe Bend",
+    "name": "Grand Canyon: Horseshoe Bend",
     "lat": 36.8809,
     "lng": -111.5109,
     "note": "Kayakers the size of fleas.",
@@ -180,7 +180,7 @@
     "name": "Hopi Cultural Center",
     "lat": 35.8441,
     "lng": -110.5289,
-    "note": "Frybead and hospitality.",
+    "note": "Frybread and hospitality.",
     "photo": "images/roadtrip/Aug_31_frybread.jpeg"
   },
   {
@@ -201,7 +201,7 @@
   },
   {
     "date": "September 2-3",
-    "name": "Mesa Verda National Park",
+    "name": "Mesa Verde National Park",
     "lat": 37.3018,
     "lng": -108.4194,
     "note": "Homes in the cliffs, 800 years ago.",
@@ -252,7 +252,7 @@
     "name": "Baton Rouge, LA",
     "lat": 30.4377,
     "lng": -91.1686,
-    "note": "Visiting Callie & Alex.",
+    "note": "Visiting Callie & Alex. Sleeping away the flu.",
     "photo": "images/roadtrip/Sept_14_New_Orleans.jpeg"
   },
   {
@@ -292,7 +292,7 @@
     "name": "Aberdeen, OH",
     "lat": 38.6555,
     "lng": -83.7596,
-    "note": "Innovative repairs",
+    "note": "Innovative repairs.",
     "photo": "images/roadtrip/Sept_22_Folgers_taillight.jpeg"
   },
   {
@@ -306,17 +306,17 @@
   {
     "date": "September 23",
     "name": "Jersey City, NJ",
-    "lat": 40.7131,
-    "lng": -74.0366,
+    "lat": 40.7358, 
+    "lng": -74.0698,
     "note": "End of the road; a car returned.",
     "photo": "images/roadtrip/Sept_23_PATH.jpeg"
   },
   {
     "date": "September 24",
     "name": "Brooklyn, NY",
-    "lat": 40.6680,
-    "lng": -73.9625,
-    "note": "Visiting Yiran and Agustin. Sunset in the Botanic Garden",
+    "lat": 40.6625, 
+    "lng": -73.9493,
+    "note": "Visiting Yiran and Agustin. Sunset in the Botanic Garden.",
     "photo": "images/roadtrip/Sept_24_Botanic_Garden.jpeg"
   },
   {

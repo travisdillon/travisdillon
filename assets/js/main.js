@@ -428,20 +428,13 @@
 		                    "<br>" + "<img src='" + loc.photo + "' class='road-trip-popup-photo'/>"
 		        	}
 
-		            L.circleMarker([loc.lat, loc.lng])
+		            L.circleMarker([loc.lat, loc.lng], {
+		            	radius: 6
+		            })
 		                .addTo(map)
 		                .bindPopup(popup);
 
 		        });
-
-		        // Highlight latest stop
-		        // var latest = locations[locations.length - 1];
-
-		        // L.marker([latest.lat, latest.lng])
-		        //     .addTo(map)
-		        //     .bindPopup("<strong>Current Stop</strong><br>" + latest.name);
-
-		        // $("#current-stop").text(latest.name);
 
 		    });
 
